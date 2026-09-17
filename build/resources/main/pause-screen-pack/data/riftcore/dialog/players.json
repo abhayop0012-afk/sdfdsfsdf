@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "ONLINE PLAYERS",
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "actions": [
+    { "label": { "nbt": "players[0]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 0" } },
+    { "label": { "nbt": "players[1]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 1" } },
+    { "label": { "nbt": "players[2]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 2" } },
+    { "label": { "nbt": "players[3]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 3" } },
+    { "label": { "nbt": "players[4]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 4" } },
+    { "label": { "nbt": "players[5]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 5" } },
+    { "label": { "nbt": "players[6]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 6" } },
+    { "label": { "nbt": "players[7]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 7" } },
+    { "label": { "nbt": "players[8]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 8" } },
+    { "label": { "nbt": "players[9]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 9" } },
+    { "label": { "nbt": "players[10]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 10" } },
+    { "label": { "nbt": "players[11]", "storage": "riftcore:players" }, "action": { "type": "run_command", "command": "/riftcore players slot 11" } }
+  ],
+  "exit_action": { "label": "← Back", "action": { "type": "run_command", "command": "/rift menu" } }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:multi_action",
+  "title": { "text": "PLAYER ACTIONS: ", "extra": [{ "nbt": "selected", "storage": "riftcore:players" }] },
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "actions": [
+    { "label": "💰 PAY PLAYER", "action": { "type": "run_command", "command": "/riftcore players action pay" } },
+    { "label": "⚡ TPA TO PLAYER", "action": { "type": "run_command", "command": "/riftcore players action tpa" } },
+    { "label": "🤝 ADD FRIEND", "action": { "type": "run_command", "command": "/riftcore players action friend" } }
+  ],
+  "exit_action": { "label": "← Back", "action": { "type": "run_command", "command": "/riftcore players" } }
+}

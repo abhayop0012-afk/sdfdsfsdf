@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "☠ TOP DEATHS",
+  "body": [
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[0]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[1]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[2]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[3]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[4]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[5]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[6]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[7]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[8]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "deaths[9]", "storage": "riftcore:leaderboards" }, "width": 300 }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "actions": [
+    { "label": "← Back", "action": { "type": "run_command", "command": "/riftcore leaderboards" } }
+  ]
+}

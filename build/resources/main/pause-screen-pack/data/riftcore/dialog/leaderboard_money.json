@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "💰 TOP MONEY",
+  "body": [
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[0]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[1]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[2]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[3]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[4]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[5]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[6]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[7]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[8]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "money[9]", "storage": "riftcore:leaderboards" }, "width": 300 }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "actions": [
+    { "label": "← Back", "action": { "type": "run_command", "command": "/riftcore leaderboards" } }
+  ]
+}

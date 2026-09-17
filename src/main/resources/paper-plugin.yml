@@ -1,0 +1,6 @@
+name: RiftCore
+version: '1.0.0'
+main: com.riftcore.RiftCore
+bootstrapper: com.riftcore.RiftCoreBootstrap
+api-version: '1.21.6'
+description: Rift SMP core plugin

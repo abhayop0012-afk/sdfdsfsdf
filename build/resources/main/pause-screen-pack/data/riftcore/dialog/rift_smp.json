@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "RIFT SMP",
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "actions": [
+    { "label": "🏠 Homes", "action": { "type": "run_command", "command": "/homes" } },
+    { "label": "💰 Balance", "action": { "type": "run_command", "command": "/balance" } },
+    { "label": "🛒 Shop", "action": { "type": "run_command", "command": "/shop" } },
+    { "label": "🔨 Auction House", "action": { "type": "run_command", "command": "/ah" } },
+    { "label": "🌎 RTP", "action": { "type": "run_command", "command": "/rtp" } },
+    { "label": "⚔ PvP", "action": { "type": "run_command", "command": "/warp pvp" } },
+    { "label": "👥 Players", "action": { "type": "run_command", "command": "/riftcore players" } },
+    { "label": "👤 Profile", "action": { "type": "run_command", "command": "/profile" } },
+    { "label": "🏆 Leaderboards", "action": { "type": "run_command", "command": "/riftcore leaderboards" } },
+    { "label": "🎁 Kits", "action": { "type": "run_command", "command": "/kit" } },
+    { "label": "⚙ Settings", "action": { "type": "run_command", "command": "/riftcore settings" } },
+    { "label": "💬 Discord", "action": { "type": "run_command", "command": "/discord" } }
+  ],
+  "exit_action": { "label": "Back", "width": 120 }
+}

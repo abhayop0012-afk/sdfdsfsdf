@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "🚶 TOP TRAVEL DISTANCE",
+  "body": [
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[0]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[1]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[2]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[3]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[4]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[5]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[6]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[7]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[8]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "distance[9]", "storage": "riftcore:leaderboards" }, "width": 300 }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "actions": [
+    { "label": "← Back", "action": { "type": "run_command", "command": "/riftcore leaderboards" } }
+  ]
+}

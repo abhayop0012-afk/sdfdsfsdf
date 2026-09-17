@@ -1,0 +1,34 @@
+name: RiftCore
+version: '1.0.0'
+main: com.riftcore.RiftCore
+api-version: '1.21'
+description: Rift SMP core plugin
+softdepend: [Vault, LuckPerms, Essentials, PlaceholderAPI]
+permissions:
+  riftcore.admin:
+    description: Allows /riftcore reload and /riftcore debug.
+    default: op
+  riftcore.menu:
+    description: Allows access to the RIFT SMP menu.
+    default: true
+  riftcore.players:
+    description: Allows access to online players.
+    default: true
+  riftcore.players.tpa:
+    description: Allows teleport requests.
+    default: true
+  riftcore.players.friend:
+    description: Allows friend requests and commands.
+    default: true
+  riftcore.players.pay:
+    description: Allows paying other players through Vault.
+    default: true
+  riftcore.settings:
+    description: Allows use of player settings.
+    default: true
+commands:
+  riftcore:
+    description: RiftCore command root.
+    usage: /riftcore [reload|debug]
+    permission: riftcore.menu
+    permission-message: You do not have permission to use RiftCore commands.

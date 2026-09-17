@@ -1,0 +1,57 @@
+[16:32:24] [main/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371) ~[?:?]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154) ~[?:?]
+	at arm.b(SourceFile:62) [server-1.21.6.jar:?]
+	at arj.a(SourceFile:143) [server-1.21.6.jar:?]
+	at ark.<init>(SourceFile:12) [server-1.21.6.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:117) [server-1.21.6.jar:?]
+[16:32:24] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:32:27] [main/INFO]: No existing world data, creating new world
+[16:32:28] [main/INFO]: Loaded 1407 recipes
+[16:32:28] [main/INFO]: Loaded 1520 advancements
+[16:32:29] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[16:32:29] [Server thread/INFO]: Loading properties
+[16:32:29] [Server thread/INFO]: Default game type: SURVIVAL
+[16:32:29] [Server thread/INFO]: Generating keypair
+[16:32:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:32:29] [Server thread/INFO]: Using epoll channel type
+[16:32:29] [Server thread/INFO]: Preparing level "world"
+[16:32:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:32:46] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:47] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:47] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:48] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:48] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:49] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:49] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:51] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:51] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:52] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:52] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:53] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:53] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:54] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:54] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:55] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:55] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:57] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:57] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:58] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:32:58] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[16:32:59] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[16:32:59] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[16:32:59] [Server thread/INFO]: Time elapsed: 13071 ms
+[16:32:59] [Server thread/INFO]: Done (29.958s)! For help, type "help"
+[16:33:59] [Server thread/INFO]: Server empty for 60 seconds, pausing

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "⏱ TOP PLAYED TIME",
+  "body": [
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[0]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[1]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[2]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[3]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[4]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[5]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[6]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[7]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[8]", "storage": "riftcore:leaderboards" }, "width": 300 },
+    { "type": "minecraft:plain_message", "contents": { "nbt": "played_time[9]", "storage": "riftcore:leaderboards" }, "width": 300 }
+  ],
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "actions": [
+    { "label": "← Back", "action": { "type": "run_command", "command": "/riftcore leaderboards" } }
+  ]
+}

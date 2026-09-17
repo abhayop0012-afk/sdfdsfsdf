@@ -1,0 +1,54 @@
+[17:01:56] [main/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371) ~[?:?]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154) ~[?:?]
+	at arm.b(SourceFile:62) [server.jar:?]
+	at arj.a(SourceFile:143) [server.jar:?]
+	at ark.<init>(SourceFile:12) [server.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:117) [server.jar:?]
+[17:01:56] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:01:56] [main/INFO]: Found new data pack file/RiftCoreNative, loading it automatically
+[17:01:58] [main/INFO]: No existing world data, creating new world
+[17:01:59] [main/INFO]: Loaded 1407 recipes
+[17:01:59] [main/INFO]: Loaded 1520 advancements
+[17:02:00] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[17:02:00] [Server thread/INFO]: Loading properties
+[17:02:00] [Server thread/INFO]: Default game type: SURVIVAL
+[17:02:00] [Server thread/INFO]: Generating keypair
+[17:02:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:02:00] [Server thread/INFO]: Using epoll channel type
+[17:02:00] [Server thread/INFO]: Preparing level "world"
+[17:02:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:02:17] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:18] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:19] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:19] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:19] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:21] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:22] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:22] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:23] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:23] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:24] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:24] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:25] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:26] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:27] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:27] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:28] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:28] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:02:29] [Worker-Main-1/INFO]: Preparing spawn area: 55%
+[17:02:29] [Server thread/INFO]: Time elapsed: 11828 ms
+[17:02:29] [Server thread/INFO]: Done (29.072s)! For help, type "help"

@@ -1,0 +1,129 @@
+server:
+  name: "Rift SMP"
+  prefix: "<gradient:#9333ea:#3b82f6><b>RIFT</b></gradient> <dark_gray>»</dark_gray> <gray>"
+
+menu:
+  enabled: true
+  title: "RIFT SMP"
+  permission-check: true
+
+permissions:
+  admin: "riftcore.admin"
+  menu: "riftcore.menu"
+  players: "riftcore.players"
+  players-tpa: "riftcore.players.tpa"
+  players-friend: "riftcore.players.friend"
+  players-pay: "riftcore.players.pay"
+  settings: "riftcore.settings"
+
+debug:
+  enabled: false
+
+players:
+  enabled: true
+  show_self: false
+  per-page: 12
+  tpa:
+    enabled: true
+    timeout-seconds: 60
+    cooldown-seconds: 5
+  friends:
+    enabled: true
+    request-timeout-seconds: 60
+
+buttons:
+  homes:
+    enabled: true
+    label: "🏠 Homes"
+    description: "Manage your homes"
+    action: "homes"
+    permission: ""
+    close: true
+
+  balance:
+    enabled: true
+    label: "💵 Balance"
+    description: "View your balance"
+    action: "balance"
+    permission: ""
+    close: true
+
+  players:
+    enabled: true
+    label: "👥 Players"
+    description: "View online players"
+    action: ""
+    permission: "riftcore.players"
+    close: true
+
+  shop:
+    enabled: true
+    label: "🏪 Shop"
+    description: "Browse the server shop"
+    action: "shop"
+    permission: ""
+    close: true
+
+  auction_house:
+    enabled: true
+    label: "🔨 Auction House"
+    description: "Open the auction house"
+    action: "ah"
+    permission: ""
+    close: true
+
+  rtp:
+    enabled: true
+    label: "🌎 RTP"
+    description: "Teleport to a random location"
+    action: "rtp"
+    permission: ""
+    close: true
+
+  pvp:
+    enabled: true
+    label: "⚔ PvP"
+    description: "Enter the PvP area"
+    action: "warp pvp"
+    permission: ""
+    close: true
+
+  profile:
+    enabled: true
+    label: "👤 Profile"
+    description: "View your profile"
+    action: "profile"
+    permission: ""
+    close: true
+
+  leaderboards:
+    enabled: true
+    label: "🏆 Leaderboards"
+    description: "View server leaderboards"
+    action: "leaderboards"
+    permission: ""
+    close: true
+
+  kits:
+    enabled: true
+    label: "🎁 Kits"
+    description: "View available kits"
+    action: "kit"
+    permission: ""
+    close: true
+
+  settings:
+    enabled: true
+    label: "⚙ Settings"
+    description: "Manage your settings"
+    action: "settings"
+    permission: ""
+    close: false
+
+  discord:
+    enabled: true
+    label: "💬 Discord"
+    description: "Join the RIFT SMP Discord"
+    action: "discord"
+    permission: ""
+    close: true

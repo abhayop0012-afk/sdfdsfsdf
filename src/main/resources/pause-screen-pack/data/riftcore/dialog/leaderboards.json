@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "🏆 LEADERBOARDS",
+  "can_close_with_escape": true,
+  "pause": true,
+  "after_action": "close",
+  "actions": [
+    { "label": "⚔ Kills", "action": { "type": "run_command", "command": "/riftcore leaderboard kills" } },
+    { "label": "☠ Deaths", "action": { "type": "run_command", "command": "/riftcore leaderboard deaths" } },
+    { "label": "💰 Money", "action": { "type": "run_command", "command": "/riftcore leaderboard money" } },
+    { "label": "⏱ Played Time", "action": { "type": "run_command", "command": "/riftcore leaderboard played_time" } },
+    { "label": "🚶 Travel Distance", "action": { "type": "run_command", "command": "/riftcore leaderboard distance" } }
+  ],
+  "exit_action": { "label": "← Back", "action": { "type": "run_command", "command": "/rift menu" } }
+}
